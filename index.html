@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great=Vibes&family=Send+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great=Vibes&family=Send+Flower&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Exercise</title>
+</head>
+
+<body>
+    <center>
+        <h1>CUPID</h1>
+        <ul>
+            <li>
+                <h2 id="audio">Cupid fifty fifty</h2>
+                <hr>
+                <audio controls>
+                    <source src="cupidmusic.mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="video">Cupid lirik video</h2>
+                <hr>
+                <video controls width="500" height="800" loop autoplay muted preload="auto">
+                    <source src="cupidvideo.mp4" type="video/mp4">
+                    <track kind="captions" src="cupidvideo.mp4" srclang="en" label="English">
+                </video>
+            </li>
+            <li>
+                <h2 id="gambar">CUPID</h2>
+                <hr>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="cupid1.jpeg">
+                    <source media="(max-width: 1200px)" srcset="cupid2.jpg">
+                    <img src="cupid1.jpeg" alt="pic 1" style="width: 500px;">
+                </picture>
+            </li>
+        </ul>
+    </center>
+    <div class="container">
+        <button class="btn btn-primary btn-next" onclick="location.href='page2.html'">Next</button>
+    </div>
+    <script src="execise2.js"></script>
+</body>
+
+</html>
